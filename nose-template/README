@@ -1,0 +1,13 @@
+Template de tests para o nose:
+
+1. O arquivo com os testes deve se chamar "tests.py"
+
+2. Cada teste deve ser uma função. O nome da função deve começar com "test", por exemplo "testAlgo".
+
+3. Deve-se utilizar o próprio "assert" do Python.
+
+4. Para imprimir algo em caso de falha do assert, utilize a forma:
+   "assert <algo que deve ser True>, <o que deve ser imprimido caso contrário>"
+   por exemplo:
+   "assert valor == 10, valor"
+   imprimirá a variável valor, caso não seja 10.
