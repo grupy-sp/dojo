@@ -1,0 +1,29 @@
+Problema: conversão de algarismos arábicos para romanos
+Origem do problema: http://www.codingdojo.org/cgi-bin/wiki.pl?KataRomanNumerals
+Data: 01/12/2010
+Presentes:
+  Luiz Felipe Rodrigues da Silva
+  Flavio Luis Crispim Junior
+  Priscila Manhães
+  Fred Paranhos Campos
+  Victor (Etiqueta estava sem sobrenome)
+
+Review:
+BOM
+Algoritmo funcionou/resolveu o problema
+A linguagem: python
+tdaemon + nose
+Grupo pequeno
+Infra local legal
+Aprendizado
+Descoberto que o 'for' tem 'else'
+Deu tempo de pseudo-terminar(terminamos o proposto a fazer)
+
+RUIM
+Faltou ultimo refactor
+Faltou tempo
+Atraso com configuracao
+Dificuldades com MAC
+Um dos participantes nao participou
+Problemas com Nose
+Horario (trocar para 19:30h)
