@@ -1,0 +1,32 @@
+Problema 1: conversão de algarismos romanos para arábicos
+Problema 2: jogo da vida (game of life)
+Origem dos problemas: http://www.codingdojo.org/cgi-bin/wiki.pl?KataRomanNumerals (inverso desse problema)
+                      http://www.codingdojo.org/cgi-bin/wiki.pl?KataGameOfLife
+Data: 09/12/2010
+Presentes:
+  Rodolpho Eckhardt
+  Denis Alberto Pereira de Souza
+  Daniel Cukier
+  Victor
+  Ruben Licio Reis
+  Anderson Pierre Cardoso
+  Maurício Dias Ferreira
+  Roberto
+  Rafael da Silva Almeida
+  Vitor Navarro
+Review:
+  MELHORAR:
+    - Seguir as regras mais rigidamente
+    - Deixar as regras expostas durante o Dojo
+    - Restrospectiva nos post-its (críticas anônimas)
+    - Faltou uma explicação mais detalhada de como funciona o Dojo e as regras (vídeo)
+    - Comida
+    - Deixar de forma mais explícita se passou ou não a última execução de testes
+    - Manter em mente o Pair Programming (PAIR, not Group)
+
+  BOM:
+    - A linguagem
+    - O grupo de Dojo
+    - Infraestrutura
+    - O tamanho do grupo (10 pessoas)
+    - Todos participaram
