@@ -1,0 +1,56 @@
+Problema: Sorteio de amigo secreto.
+Descrição:
+  Entrada: uma lista de strings, onde cada string contém o nome e sobrenome de um participante
+  Saída: o resultado do sorteio de amigo secreto.
+  Regras: 1. Uma pessoa não pode presentear a si própria
+          2. Duas pessoas da mesma família não podem se presentear
+          3. Duas pessoas com o mesmo sobrenome são consideradas como pertencentes à mesma família
+          4. Não é permitido fechar o ciclo de presenteados sem que todos já tenham recebido presentes. Ou seja, no caso mínimo de três pessoas (A, B e C), caso A presenteie B, B só poderá presentear C.
+Data: 23/12/2010
+Presentes:
+  Rodolpho Eckhardt
+  Rodrigo Bernardo Pimentel
+  Denis Alberto
+  Vanessa Sabino
+  Reinaldo Nolasco Sanches
+  Chester (Carlos Nascimento)
+  Maurício Ferreira
+  Rafael Brito de Oliveira
+  Thiago Ganzarolli
+  Sam Carecho
+  Mauro Navarro Baraldi
+  Nathália Nunes
+  Roberto
+  Guilherme Lara
+Review:
+  MELHORAR:
+    - Diminuir ainda mais as conversas paralelas
+    - Os participantes não devem falar enquanto os testes estiverem falhando
+    - 7 minutos por turno ficou muito longo
+    - Co-pilotos devem se manifestar mais
+    - Manter uma cola visível de Python no quadro branco
+    - Demorou demais para os programadores experientes avisarem sobre erros de linguagem
+    - Discutimos a solução do problema logo no início do Dojo
+    - Pessoal precisa participar mais
+    - Post-its pequenos
+    - Fazer um rodízio da linguagem?
+    - Publicar alguma referência da linguagem
+  BOM:
+    - Bom problema escolhido
+    - Conversamos e esclarecemos bem o problema e a solução esperada
+    - Todos participaram
+    - As ferramentas utilizadas
+    - Explicação no quadro dos conceitos utilizados
+    - Aprendemos muito sobre Python
+    - Focamos mais na técnica do que na solução
+    - Instrutor para tirar dúvidas da linguagem
+    - Mesa "redonda", o que incentiva a atenção
+    - Local e infra-estrutura
+    - Lanchinho do Google
+    - Comprometimento do grupo (presente até na véspera do Natal)
+    - Estou aprendendo muito, meu cérebro está ficando musculoso
+    - 7 minutos, mais tempo é melhor!
+    - Duas telas ligadas, facilitando a visualização
+    - Não teve tantas conversas paralelas
+    - As regras do Dojo foram quase 100% respeitadas e estavam no quadro
+    - Organização
