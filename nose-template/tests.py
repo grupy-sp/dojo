@@ -1,4 +1,8 @@
-def testPassa():
-  assert True
-  assert not False
-  assert True != False
+import unittest
+
+class ExemploTest(unittest.TestCase):
+    def testPassa(self):
+        self.assertTrue(True)
+
+    def testFalha(self):
+        self.assertFalse(True)

@@ -1,13 +1,9 @@
 Template de tests para o nose:
 
-1. O arquivo com os testes deve se chamar "tests.py"
+1. O arquivo com os testes deve se chamar "tests.py".
 
-2. Cada teste deve ser uma função. O nome da função deve começar com "test", por exemplo "testAlgo".
+2. Lembre-se de importar o módulo "unittest" e crie seus testes com essa ferramenta.
 
-3. Deve-se utilizar o próprio "assert" do Python.
+3. Cada Test Case deve ser uma classe que herda de unittest.TestCase e seu nome deve terminar com "Test".
 
-4. Para imprimir algo em caso de falha do assert, utilize a forma:
-   "assert <algo que deve ser True>, <o que deve ser imprimido caso contrário>"
-   por exemplo:
-   "assert valor == 10, valor"
-   imprimirá a variável valor, caso não seja 10.
+4. Crie métodos com seus tests dentro dessa classe. O nome de cada método deve começar com "test"
