@@ -1,0 +1,54 @@
+Problema: Drive Thru vs. Fila do Balcão
+Descrição:
+  Entrada: cinco variáveis de tempo (t_1, t_2, t_3, t_4 e t_d) indicando quanto
+           tempo é necessário para ser atendido em cada um dos quatro balcões
+           de uma lanchonete, e o tempo necessário para ser atendido no Drive
+           Thru. Outras cinco variáveis (x_1, x_2, x_3, x_4 e x_d) com o
+           tamanho atual das filas nos balcões e no Drive Thru.
+  Saída: qual a melhor fila para se entrar (qual garantirá o atendimento mais
+         rápido).
+  Regras: 1. Não é possível trocar de filas
+          2. Uma pessoa demora 5 minutos a mais se precisa estacionar e
+             retornar ao veículo depois.
+Data: 29/12/2010
+Presentes:
+  Rodolpho Eckhardt
+  Roberto Rodrigues
+  Reinaldo Nolasco Sanches
+  Maurício Ferreira
+  Vanessa Sabino
+  Rafael Brito de Oliveira
+  Guilherme Policicio Rey
+  Thiago Ganzarolli
+  Ruben Lício Reis
+  Robson Moura
+  Denis Alberto
+Review:
+  MELHORAR:
+    - Usar outra plataforma além do Mac
+    - Piloto e co-piloto conversaram muito baixo as vezes
+    - Não esquecer de policiar as regras do dojo
+  BOM:
+    - Presença do grupo mesmo na semana entre feriados
+    - Utilizar ambas as telas para projeção
+    - Problema e regras do dojo foram discutidas antes de começar
+    - Nenhum trânsito para chegar ao dojo
+    - IDE utilizado
+    - As colas colocadas no quadro branco
+    - Melhor utilização do quadro branco
+    - Código no quadro branco e laptop no lado oposto da mesa
+    - O problema escolhido
+    - O problema permitiu trabalhar em refatorações diversas e baby steps menos
+      triviais
+    - Muitas idéias dos participantes
+    - Tempo de 7 minutos entre trocas
+    - Muitos conceitos de Python aprendidos
+    - Diversão
+    - Evolução no respeito às regras do dojo
+    - Grupo está mais maduro
+    - Pair programming funcionou melhor
+    - Várias refatorações
+    - Todos participaram
+    - Resolvemos o problema
+    - A qualidade do código melhorou
+    - Post-its grandes
