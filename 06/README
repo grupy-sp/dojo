@@ -1,0 +1,63 @@
+Problema: Livraria
+Descrição:
+  Origem: http://codingdojo.org/cgi-bin/wiki.pl?KataPotter
+  Entrada: Um carrinho de compras, representado como um dict no qual as
+           chaves identificam o livro comprado e os valores a quantidade
+  Saída: O menor preço possível combinando os livros de forma a aproveitar
+         os descontos oferecidos.
+  Regras: Uma livraria oferece um conjunto de 5 livros diferentes. Cada
+          livro custa US$ 8 cada, mas você ganha um desconto de 5% se
+          comprar dois livros diferentes, 10% se comprar três livros
+          diferentes, 20% para quatro diferentes e 25% para cinco livros
+          diferentes.
+Data: 07/01/2010
+Participantes:
+  Danilo Ehrhardt Ferreira Bento
+  Rúben Lício Reis
+  Rafael Brito de Oliveira
+  Vanessa Cristina Sabino
+  Mauricio Dias
+  Roger Perroni
+  Denis Souza
+  Aline Kimy Miyazaki
+  Vitor Navarro
+  Guilherme Policicio Rey
+  Rodolpho Eckhardt
+  Leandro A. F. Pereira
+  Rodrigo Bernardo Pimentel
+  Roberto Leite de Moraes Rodrigues
+  Carlos Duarte do Nascimento (Chester)
+Review:
+  MELHORAR:
+    - Faltou colocar as regras no quadro (e deu confusão sobre quando falar)
+    - Dispersão e conversas no vermelho/paralelas (3)
+    - Ruim chegar e parar
+    - Sexta-feira (3)
+    - Distância do local
+    - Chuva, trânsito
+    - Um pouco de desorganização, organizaçõa da sala (ex.: lousa)
+    - Dificuldade em descobrir o valor correto dos testes
+    - Passo acelerado no meio do dojo (3)
+    - Alguns ficaram sem codar
+    - Problema do "dictionary changed during the operation" (não-óbvio à 1a. vista)
+  BOM:
+    - A discussão no break sobre como conseguir o menor preço (podia ter sido com todos)
+    - Aprendizado Python, aprendizado em grupo
+    - Conhecer novas pessoas
+    - Problema (9)
+    - Pessoas novas, participação, galera de níveis diferentes interagindo
+    - Presença da galera mesmo com chuva (2), galera animada, periodicidade/ânimo do dojo
+    - Respeito às regras
+    - Preocupação com o entendimento do problema por todos
+    - Explicações pacientes e didáticas (2)
+    - Ambiente agradável
+    - Infra (3)
+    - Código curto/limpo (2)
+    - Desalojamos advogados :-D #piadainterna
+    - Comida
+    - Canecas (2), Apontador como anfitrião (obrigado pelo espaço, lanche e canecas)
+    - Novos lugares (é bom ter um grupo itinerante)
+Observações:
+  - Chegamos a uma solução que não é necessariamente ótima. Podemos retomar
+    o tema em dojos futuros.
+  - Fotos em http://www.flickr.com/photos/chesterbr/sets/72157625651647583/with/5336062501/
