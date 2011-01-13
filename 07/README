@@ -1,0 +1,76 @@
+Problema 1: Sacolas
+Descrição:
+  Origem: http://www.topcoder.com/stat?c=problem_statement&pm=3450&rd=5868
+          (precisa de login)
+  Entrada: Uma lista de strings onde cada uma representa um item comprado
+           em um supermercado (ex.: ["leite", "leite", "pao", "ovos"]
+           e a quantidade máxima de itens que uma sacola do supermercado
+           aguenta.
+  Saída: A quantidade de sacolas necessária para levar os itens.
+  Regras: Não é permitido misturar itens diferentes na mesma sacola. Ex.:
+          se eu tenho ["leite", "leite", "leite", "ovo"] e a quantidade
+          máxima de itens por sacola é 2, é preciso usar 4 sacolas (uma
+          com dois "leite", uma com um "leite" e uma com um "ovo").
+Problema 2: Amigos mais próximos
+Descrição:
+  Origem: http://www.facebook.com/careers/puzzles.php?puzzle_id=6
+  Entrada: Uma lista contendo as coordenadas (x,y) de onde cada integrante
+           de um grupo de amigos mora
+  Saída: Para cada pessoa (identificada pelo seu índice na lista original),
+         indicar os dois amigos que moram mais perto dela.
+  Regras: Não há duas pessoas morando na mesma casa (par de coordenadas) e
+          não existem distâncias iguais entre duas casas.
+          
+Data: 07/01/2010
+Participantes:
+  Aline Kimy Miyazaki
+  Vitor Navarro
+  Rafael Brito de Oliveira
+  Guilherme Policicio Rey
+  Denis Souza
+  Mauricio Dias
+  Rúben Lício Reis
+  Rodolpho Eckhardt
+  Elton Silva
+  Vanessa Cristina Sabino
+  Danilo Ehrhardt Ferreira Bento
+  Nathália Nunes
+  Roberto Leite de Moraes Rodrigues
+  Carlos Duarte do Nascimento (Chester)
+Review:
+  MELHORAR:
+    - Passos grandes, desacoplados dos tetes
+    - Começamos tarde
+    - Código não-testado
+    - Pessoas distraídas
+    - Conversa Paralela
+    - Falha matemática
+    - Baby step muito grande
+    - Chuva
+    - Primeiro problema muito fácil (2)
+    - Dificuldade com Mac
+    - Micro no meio da mesa
+    - Ajustes frequentes no 2o. problema
+  BOM:
+    - Problemas (2)
+    - Muitos testes
+    - Local
+    - Uso do quadro
+    - Pessoas novas (2)
+    - Participação
+    - Grupo constante
+    - Problemas com nível moderado de dificuldade, permitem aprendizado positivo
+    - Treinamos mais Python
+    - Tour no Apontador
+    - Interação/integração (3)
+    - Regras do Dojo no quadro
+    - Conhecimento compartilhado
+    - Comida
+    - Lugares diferentes
+    - Resolução dos problemas (3)
+    - Pessoal comeu bastante, não tive chance de ser guloso
+    - Temas legais, aumentando a diversidade do Dojo
+    - 2o. problema muito bom
+    - Linguagem vem dos problemas naturalmente (na medida em que precisamos do
+      código/comandos)
+    - Lembrar que resolução de problemas não é só linguagem
