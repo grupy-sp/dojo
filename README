@@ -11,3 +11,6 @@ Onde: Apontador
 Como:
       Envie e-mail com nome e RG para chester@apontador.com.br até a manhã
       da 3a. feira e aguarde confirmação por e-mail.
+
+OBS.: O último Dojo acabou sendo trabalhado em Erlang. A quem interessar, seu código
+      está hospedado em https://github.com/dojosp/participant-s-projects/tree/master/88-Erlang
