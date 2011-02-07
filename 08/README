@@ -1,0 +1,54 @@
+Problema: Troco
+Descrição:
+  Para um determinado valor de um produto e uma quantia paga pelo cliente,
+  determinar como será dado o troco, minimizando a quantidade de notas ou
+  moedas.
+  Se terminar essa parte dá pra adicionar outras características, como por
+  exemplo restrição da quantidade disponível de cada moeda.
+        
+Data: 07/01/2010
+Participantes:
+  Thiago Ganzarolli
+  Roberto L. M. Rodrigues
+  Pedro Da Ros
+  Bruno C. Rocha
+  Rodrigo Elias
+  Nathália Nunes
+  Vanessa Arruda
+  Renata Silva de Mello Pereira (@renatamello07)
+  Fabio Nakano
+  Vanessa Sabino
+  Carlos Duarte do Nascimento (@chesterbr)  
+  Karen Zamlutti
+  Renan Ivo
+  Alexandre Eher
+  Victor Augusto de Campos
+Review:
+  MELHORAR:
+    problema muito conhecido (simples), pegar problema novo (ex.: Top Coder)
+    começo lento, muita variação de foco
+    confusão com baby steps
+    baby steps pequenos na metade
+    não resolvemos o problema por completo
+    pouco tempo para desenvolver o problema
+    regras atropeladas no final
+    refatorações muito tímidas no início
+    chester falando em excesso no início
+    terça-feira (vamos fazer uma enquete pra fixar um dia? ex.: 4a. feira)
+    horário (poderia ser mais cedo?)
+    tempo (pdoeria ser um pouco maior (6.5?)
+    não foi todo mundo que programou
+    editor não ajudou
+    muito tempo sem pensar no problema real (hardcodes)
+    probelma mutio complexo para participantes noob em dojo
+    gostava do quadro antigo :-)
+  BOM:
+    problema divertido
+    comentários bons
+    novos integrantes (3)
+    amistosidade
+    interação (3)
+    lanche (2)
+    sala grande
+    dificuldade do problema
+    rápido aprendizado supervisionado da linguagem, tdd e dojo
