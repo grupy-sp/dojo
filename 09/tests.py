@@ -1,52 +1,93 @@
 import unittest
+import program
 
-VAZIO = 'vazio'
-MIJANDO = 'mijando'
-
-def distribui_pessoas(num_mic, num_pes):
-    mictorios = [VAZIO] * num_mic
-    if num_pes >= 1:
-        mictorios[0] = MIJANDO
-    if num_pes >= 2:
-        mictorios[-1] = MIJANDO
-    if num_pes == 3:
-        mictorios[num_mic/2] = MIJANDO
-    if num_mic == 7:
-        mictorios[3] = MIJANDO
-    
-    return mictorios
-
-
-class TestCase(unittest.TestCase):
-    def test_zero_mictorios(self):
-        dist = distribui_pessoas(num_mic=0, num_pes=0)
-        self.assertEquals(dist, [])
-    
-    def test_um_mictorio_zero_pessoa(self):
-        dist = distribui_pessoas(num_mic=1, num_pes=0)
-        self.assertEquals(dist, [VAZIO]) 
+class ExemploTest(unittest.TestCase):
+    def testTrue(self):
+        self.assertTrue(program.calcula('true'))
         
-    def test_um_mictorio_uma_pessoa(self):
-        dist = distribui_pessoas(num_mic=1, num_pes=1)
-        self.assertEquals(dist, [MIJANDO])
-    
-    def test_dois_mictorios_uma_pessoa(self):
-        dist = distribui_pessoas(num_mic=2, num_pes=1)
-        self.assertEquals(dist,[MIJANDO,VAZIO])
+    def testFalse(self):
+        self.assertFalse(program.calcula('false'))
         
-    def test_dois_mictorios_duas_pessoas(self):
-        dist = distribui_pessoas(num_mic=2, num_pes=2)
-        self.assertEquals(dist, [MIJANDO, MIJANDO])
+    def testTrueAndTrue(self):
+        self.assertTrue(program.calcula('true and true'))
         
-    def test_tres_mictorios_duas_pessoas(self):
-        dist = distribui_pessoas(num_mic=3, num_pes=2)
-        self.assertEquals(dist, [MIJANDO, VAZIO, MIJANDO])
+    def testTrueAndFalse(self):
+        self.assertFalse(program.calcula('true and false')) 
     
-    def test_cinco_mictorios_tres_pessoas(self):
-        dist = distribui_pessoas(num_mic=5, num_pes=3)
-        self.assertEquals(dist, [MIJANDO, VAZIO, MIJANDO, VAZIO, MIJANDO])
-    def test_sete_mictorios_tres_pessoas(self):
-        dist= distribui_pessoas(num_mic=7, num_pes=3)
-        self.assertEquals(dist, [MIJANDO, VAZIO, VAZIO, MIJANDO, VAZIO, VAZIO, MIJANDO])
-if __name__ == '__main__':
-    unittest.main()
+    def testTrueOrFalse(self):
+        self.assertTrue(program.calcula('true or false'))
+        self.assertTrue(program.calcula('false or true'))
+        
+    def testFalseAndFalse(self):
+        self.assertFalse(program.calcula('false and false'))
+        
+    def testFalseOrFalse(self):
+        self.assertFalse(program.calcula('false or false'))
+    
+    def testTrueOrTrue(self):
+        self.assertTrue(program.calcula('true or true'))
+        
+    def testTrueXorFalse(self):
+        self.assertTrue(program.calcula('true xor false'))    
+        
+    def testTrueXorFalse(self):
+        self.assertTrue(program.calcula('false xor true'))    
+    
+    def testTrueAndTrueAndTrue(self):
+        self.assertTrue(program.calcula('true and true and true'))
+        
+    def testTrueAndTrueAndFalse(self):
+        self.assertFalse(program.calcula('true and true and false'))
+    def testTrueAndFalseOrFalse(self):
+        self.assertFalse(program.calcula('true and false or false'))
+        
+    def testTrueAndTrueOrFalse(self):
+        self.assertTrue(program.calcula('true and true or false'))
+        
+    def testTrueOrTrueAndFalse(self):
+        self.assertFalse(program.calcula('true or true and false'))
+        
+    def testTrueOrTrueOrFalse(self):
+        self.assertTrue(program.calcula('true or true or false'))   
+    def testTrueOrTrueXorFalse(self):
+        self.assertTrue(program.calcula('true or true xor false')) 
+        
+             
+
+class ExemploCalculaBinario(unittest.TestCase):
+    def testTrue(self):
+        self.assertTrue(program.calculaBinario('true'))
+
+    def testFalse(self):
+        self.assertFalse(program.calculaBinario('false'))
+
+    def testTrueAndTrue(self):
+        self.assertTrue(program.calculaBinario('true and true'))
+
+    def testTrueAndFalse(self):
+        self.assertFalse(program.calculaBinario('true and false')) 
+
+    def testTrueOrFalse(self):
+        self.assertTrue(program.calculaBinario('true or false'))
+        self.assertTrue(program.calculaBinario('false or true'))
+
+    def testFalseAndFalse(self):
+        self.assertFalse(program.calculaBinario('false and false'))
+
+    def testFalseOrFalse(self):
+        self.assertFalse(program.calculaBinario('false or false'))
+
+    def testTrueOrTrue(self):
+        self.assertTrue(program.calculaBinario('true or true'))
+
+    def testTrueXorFalse(self):
+        self.assertTrue(program.calculaBinario('true xor false'))    
+
+    def testTrueXorFalse(self):
+        self.assertTrue(program.calculaBinario('false xor true'))
+        
+        
+           
+           
+           
+           

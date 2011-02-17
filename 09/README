@@ -1,9 +1,10 @@
-Problema: Distribuição nos mictórios
+Problema: Parênteses Booleanos
 Descrição:
-  Dada uma quantidade de mictórios em um banheiro e uma quantidade de "mijões", encontrar a melhor distribuição de maneira a evitar situações constrangedoras. Uma situação constrangedora ocorrerá quando dois "mijões" estão utilizando mictórios adjacentes.
-        
-Data: 10/02/2010
+    Este problema foi utilizado em 1 Dojo(s).
+    Dada uma expressão booleana, contendo os símbolos: 'true', 'false', 'and', 'or' e 'xor', elabore um programa que conte de quantas maneiras é possível obter uma resposta ' true', utilizando parênteses.
+    Por exemplo, dada a expressão 'true and false xor true' existe apenas uma maneira de a expressão retornar 'true': 'true and (false xor true)'
+Data: 16/02/2010
 Participantes:
-  30+ (TODO: listar todos os participantes)
+  10+ (TODO: listar todos os participantes)
 Review:
   TODO: adicionar review
