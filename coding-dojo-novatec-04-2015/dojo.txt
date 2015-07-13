@@ -1,0 +1,49 @@
+Dojo Python 2015-03-05 @ CT da Novatec
+
+Problema:
+http://dojopuzzles.com/problemas/exibe/lampadas-no-corredor/
+
+Linha para rodar os testes com o dose:
+dose.py py.test dojo.py
+
+Instalação dose:
+sudo apt-get install python-wxgtk2.8 python-pip
+sudo pip install dose
+
+Retrospectiva:
+
+*** =) ***
+
+- Didática/Explicação (+++)
+- Python (+++)
+- Motivou próximos dojos!
+- DojoPuzzles (+)
+- git
+- Semáforo dose.py (++)
+- Lugar novo
+- Sala confortável
+- Balas, café e kitutz! (+)
+- Fácil acesso (próximo do metrô) (+)
+- Aprendizado coletivo / solução de dúvidas / pessoal atencioso (++)
+- Tema (+)
+- Ambiente acolhedor/descontraído (++)
+- Boa iluminação
+- Babysteps!
+- Exercício/problema
+- Não perdemos tempo (setup, decisões, etc.)
+- Modo de seleção da linguagem
+- Conhecer como funciona um dojo (gente nova)
+
+*** =( ***
+
+- Teve gente que chegou atrasado
+- Podia vir mais gente
+- Nem todos ficaram até o final
+
+- Nem todos conseguiram contribuir
+- Acabou rápido (-)
+- Problema aproveitou poucos recursos da linguagem
+- Bugs do dose.py (-)
+
+- Até aqui o vestido foi comentado
+
