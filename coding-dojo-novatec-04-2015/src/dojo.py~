@@ -1,0 +1,71 @@
+#!/usr/bin/env python
+# coding: utf-8
+#
+# Um homem chamado José é o responsável por ligar e desligar as luzes de um
+# corredor. Cada lâmpada tem seu próprio interruptor que liga e a desliga.
+# Inicialmente todas as lâmpadas estão desligadas.
+# José faz uma coisa peculiar: se existem n lâmpadas no corredor, ele caminha
+# até o fim do corredor e volta n vezes. Na iésima caminhada, ele aperta
+# apenas os interruptores aos quais sua posição é divisível por i. Ele não
+# aperta nenhum interruptor na volta à sua posição inicial, apenas na ida. A
+# iésima caminhada é definida como ir ao fim do corredor e voltar.
+# Determine qual é o estado final de cada lâmpada. Está ligada ou desligada?
+# Exemplo:
+# Entrada: 3          
+# Saída: [on, off, off]
+#  1 TTTTTTTTTTT
+#  2 TFTFTFTFTFT
+#  3 TFFFTTTFFFT
+#  4 TFFTTTTTFFT
+#  5 TFFTFTTTFTT
+#  6 TFFTFFTTFTT
+#  7 TFFTFFFTFTT
+#  8 TFFTFFFFFTT
+#  9 TFFTFFFFTTT
+# 10 TFFTFFFFTFT
+# 11 TFFTFFFFTFF # 1, 4, 9
+
+def corredor(n):
+    lampadas = [True] * n
+    for i in range(2, n + 1):
+        for j in range(i - 1, n, i):
+            lampadas[j] = not lampadas[j]                
+    return lampadas
+
+def test_55_lampadas():
+    n = 55
+    assert corredor(n) == [int(i ** .5) ** 2 == i for i in range(1, n+1)]
+ 
+def test_11_lampadas():
+    assert corredor(11) == [True,False,False,True,False,False,False,False,
+                            True,False,False]
+
+def test_8_lampadas():
+    assert corredor(8) == [True,False,False,True,False,False,False,False]
+
+def test_7_lampadas():
+    assert corredor(7) == [True,False,False,True,False,False,False]
+
+def test_6_lampadas():
+    assert corredor(6) == [True,False,False,True,False,False]
+
+def test_5_lampadas():
+    assert corredor(5) == [True, False, False, True, False]
+
+def test_4_lampadas():
+    assert corredor(4) == [True, False, False, True]
+
+def test_3_lampadas():
+    assert corredor(3) == [True, False, False]
+
+def test_2_lampadas():
+    assert corredor(2) == [True, False]
+
+def test_1_lampada():
+    assert corredor(1) == [True] 
+
+def test_nenhuma_lampada():
+    entrada = 0
+    obtido = corredor(entrada)
+    assert obtido == []
+
